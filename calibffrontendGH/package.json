@@ -2,7 +2,7 @@
   "name": "californiabeachfinder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://speckworks.github.io/californiabeachfinder",
+  "homepage": "http://speckworks.github.io/calibffrontendGH",
   "dependencies": {
     "chart.js": "^2.9.3",
     "gh-pages": "^2.2.0",
