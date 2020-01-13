@@ -88,7 +88,7 @@ export default class App extends Component {
                         }
                         
     grabBeaches = async (QlatLong) => {
-        let rawBeaches = await fetch('http://localhost:3000/beaches')
+        let rawBeaches = await fetch('https://mighty-ocean-78254.herokuapp.com/beaches')
         let beaches = await rawBeaches.json()
         let newBeaches = beaches.filter(beach => {
             return parseFloat(beach.lat) <= QlatLong.lat+.05 && 
