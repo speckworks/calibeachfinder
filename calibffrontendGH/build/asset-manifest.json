@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/calibffrontendGH/static/css/main.27ef635a.chunk.css",
-    "main.js": "/calibffrontendGH/static/js/main.194e38f9.chunk.js",
-    "main.js.map": "/calibffrontendGH/static/js/main.194e38f9.chunk.js.map",
-    "runtime-main.js": "/calibffrontendGH/static/js/runtime-main.7fbccbc6.js",
-    "runtime-main.js.map": "/calibffrontendGH/static/js/runtime-main.7fbccbc6.js.map",
-    "static/js/2.5315302a.chunk.js": "/calibffrontendGH/static/js/2.5315302a.chunk.js",
-    "static/js/2.5315302a.chunk.js.map": "/calibffrontendGH/static/js/2.5315302a.chunk.js.map",
-    "index.html": "/calibffrontendGH/index.html",
-    "precache-manifest.525089ec00f54b6b1639ba06a0ddbf65.js": "/calibffrontendGH/precache-manifest.525089ec00f54b6b1639ba06a0ddbf65.js",
-    "service-worker.js": "/calibffrontendGH/service-worker.js",
-    "static/css/main.27ef635a.chunk.css.map": "/calibffrontendGH/static/css/main.27ef635a.chunk.css.map",
-    "static/js/2.5315302a.chunk.js.LICENSE": "/calibffrontendGH/static/js/2.5315302a.chunk.js.LICENSE",
-    "static/media/index.css": "/calibffrontendGH/static/media/beach-background.9d759028.jpg",
-    "static/media/beach-marker.png": "/calibffrontendGH/static/media/beach-marker.cfafeca2.png"
+    "main.css": "/calibffrontend/static/css/main.e04c67b5.chunk.css",
+    "main.js": "/calibffrontend/static/js/main.dd552310.chunk.js",
+    "main.js.map": "/calibffrontend/static/js/main.dd552310.chunk.js.map",
+    "runtime-main.js": "/calibffrontend/static/js/runtime-main.9a2f0ddf.js",
+    "runtime-main.js.map": "/calibffrontend/static/js/runtime-main.9a2f0ddf.js.map",
+    "static/js/2.d4f8d9d2.chunk.js": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js",
+    "static/js/2.d4f8d9d2.chunk.js.map": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js.map",
+    "index.html": "/calibffrontend/index.html",
+    "precache-manifest.12568c7ec32bcf3b44cc4a5be7f1d332.js": "/calibffrontend/precache-manifest.12568c7ec32bcf3b44cc4a5be7f1d332.js",
+    "service-worker.js": "/calibffrontend/service-worker.js",
+    "static/css/main.e04c67b5.chunk.css.map": "/calibffrontend/static/css/main.e04c67b5.chunk.css.map",
+    "static/js/2.d4f8d9d2.chunk.js.LICENSE": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js.LICENSE",
+    "static/media/index.css": "/calibffrontend/static/media/beach-background.9d759028.jpg",
+    "static/media/beach-marker.png": "/calibffrontend/static/media/beach-marker.cfafeca2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fbccbc6.js",
-    "static/js/2.5315302a.chunk.js",
-    "static/css/main.27ef635a.chunk.css",
-    "static/js/main.194e38f9.chunk.js"
+    "static/js/runtime-main.9a2f0ddf.js",
+    "static/js/2.d4f8d9d2.chunk.js",
+    "static/css/main.e04c67b5.chunk.css",
+    "static/js/main.dd552310.chunk.js"
   ]
 }

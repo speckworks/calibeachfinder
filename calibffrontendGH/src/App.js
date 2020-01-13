@@ -198,7 +198,7 @@ export default class App extends Component {
             <div id="title">
                     CALIFORNIA BEACH FINDER
                 <div className="navbuttonscontainer">
-                    <Link to="/">
+                    <Link to="/beachfinder">
                     <button className="roundbutton">
                     Beach Finder Mainpage</button>
                     </Link>
@@ -230,7 +230,7 @@ export default class App extends Component {
                     }
                     </>
                     </div>
-                    <Route exact path={'/'} render= {(props) => 
+                    <Route exact path={'/beachfinder'} render= {(props) => 
                     <div id="search-bar">
                                 <SearchForm {...props} 
                                 grabBeaches={this.grabBeaches}
@@ -239,7 +239,7 @@ export default class App extends Component {
                     </div>}
                     />
 
-                    <Route exact path={'/'} render= {(props) => 
+                    <Route exact path={'/beachfinder'} render= {(props) => 
                         {return this.state.results.length === 0 
                         ? 
                         <div id="map-showcase">
