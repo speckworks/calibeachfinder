@@ -21,7 +21,7 @@ export default class ReviewForm extends Component {
             beach_id:beach_id,
             user_id:this.props.user_id 
         }
-        const url = "http://localhost:3000/reviews"
+        const url = "https://mighty-ocean-78254.herokuapp.com/reviews"
         fetch(url, {method: 'POST',
         body:JSON.stringify(newBeachReviewObj),
         headers: {'content-type':'application/json'}

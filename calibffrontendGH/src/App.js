@@ -31,14 +31,14 @@ export default class App extends Component {
     }
    
     componentDidMount(){
-        fetch("http://localhost:3000/reviews")
+        fetch("https://mighty-ocean-78254.herokuapp.com/reviews")
         .then(res=> res.json())
         .catch(error=>console.error("Error:", error))
         .then(resArr=>{
             this.setState({reviews:resArr})
         })
 
-        fetch("http://localhost:3000/userbeaches")
+        fetch("https://mighty-ocean-78254.herokuapp.com/userbeaches")
         .then(res=> res.json())
         .then(resArr=>{
             this.setState({userbeaches:resArr})
@@ -77,7 +77,7 @@ export default class App extends Component {
     }
    
     deleteReview = (review_id) => {
-                            const url = `http://localhost:3000/reviews/${review_id}`
+                            const url = `https://mighty-ocean-78254.herokuapp.com/reviews/${review_id}`
                             fetch(url, {method: 'DELETE'})
                             .then(res=>res.json())
                             .catch(error=>console.error("Error:", error))
@@ -148,7 +148,7 @@ export default class App extends Component {
         console.log(review, newReview)
         let review_id = review.id
         let reviewPatch = {user_id:this.state.loggedInUserId, beach_id:review.beach_id, review:newReview}
-        const url = `http://localhost:3000/reviews/${review_id}`
+        const url = `https://mighty-ocean-78254.herokuapp.com/reviews/${review_id}`
         fetch(url, {method:'PATCH',
             body:JSON.stringify(reviewPatch),
             headers: {'content-type':'application/json'}
@@ -166,7 +166,7 @@ export default class App extends Component {
         const user_id = this.state.loggedInUserId
         const name = await props.beach.name
         const userbeach = {beach_id:beach_id, user_id:user_id, name:name}
-        const url = "http://localhost:3000/userbeaches"
+        const url = "https://mighty-ocean-78254.herokuapp.com/userbeaches"
         fetch(url, {method: 'POST',
         body:JSON.stringify(userbeach),
         headers: {'content-type':'application/json'}
@@ -182,7 +182,7 @@ export default class App extends Component {
     }
 
     deleteFromUBs = (beach) => {
-        const url = `http://localhost:3000/userbeaches/${beach.id}`
+        const url = `https://mighty-ocean-78254.herokuapp.com/${beach.id}`
         fetch(url, {method: 'DELETE'})
         .then(res=>res.json())
         .catch(error=>console.error("Error:", error))

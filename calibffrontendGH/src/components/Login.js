@@ -22,7 +22,7 @@ export default class Login extends Component {
 
     logInSubmitted = (event) => {
     event.preventDefault()
-    fetch("http://localhost:3000/login", {
+    fetch("https://mighty-ocean-78254.herokuapp.com/login", {
         method: "POST",
         headers: {
         "Content-Type": "application/json"
@@ -47,7 +47,7 @@ export default class Login extends Component {
 
     signUpSubmitted = (event) => {
     event.preventDefault() 
-    fetch("http://localhost:3000/users", {
+    fetch("https://mighty-ocean-78254.herokuapp.com/users", {
         method: "POST",
         headers: {
         "Content-Type": "application/json"
