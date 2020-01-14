@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6021a092728419421f926083728f8753",
+    "revision": "f50a7e61fd9114243bcfeadd665bb7ad",
     "url": "/calibffrontend/index.html"
   },
   {
-    "revision": "72ecf75880244ef9bf2b",
+    "revision": "4cd71e1fd4918b55fb9f",
     "url": "/calibffrontend/static/css/main.e04c67b5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js.LICENSE"
   },
   {
-    "revision": "72ecf75880244ef9bf2b",
-    "url": "/calibffrontend/static/js/main.dd552310.chunk.js"
+    "revision": "4cd71e1fd4918b55fb9f",
+    "url": "/calibffrontend/static/js/main.bf7c733c.chunk.js"
   },
   {
     "revision": "4ea87fa4b4dc4e223bc0",

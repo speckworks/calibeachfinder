@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/calibffrontend/static/css/main.e04c67b5.chunk.css",
-    "main.js": "/calibffrontend/static/js/main.dd552310.chunk.js",
-    "main.js.map": "/calibffrontend/static/js/main.dd552310.chunk.js.map",
+    "main.js": "/calibffrontend/static/js/main.bf7c733c.chunk.js",
+    "main.js.map": "/calibffrontend/static/js/main.bf7c733c.chunk.js.map",
     "runtime-main.js": "/calibffrontend/static/js/runtime-main.9a2f0ddf.js",
     "runtime-main.js.map": "/calibffrontend/static/js/runtime-main.9a2f0ddf.js.map",
     "static/js/2.d4f8d9d2.chunk.js": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js",
     "static/js/2.d4f8d9d2.chunk.js.map": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js.map",
     "index.html": "/calibffrontend/index.html",
-    "precache-manifest.12568c7ec32bcf3b44cc4a5be7f1d332.js": "/calibffrontend/precache-manifest.12568c7ec32bcf3b44cc4a5be7f1d332.js",
+    "precache-manifest.0afe4cdc05cddc7989de8be97ba4a51f.js": "/calibffrontend/precache-manifest.0afe4cdc05cddc7989de8be97ba4a51f.js",
     "service-worker.js": "/calibffrontend/service-worker.js",
     "static/css/main.e04c67b5.chunk.css.map": "/calibffrontend/static/css/main.e04c67b5.chunk.css.map",
     "static/js/2.d4f8d9d2.chunk.js.LICENSE": "/calibffrontend/static/js/2.d4f8d9d2.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.9a2f0ddf.js",
     "static/js/2.d4f8d9d2.chunk.js",
     "static/css/main.e04c67b5.chunk.css",
-    "static/js/main.dd552310.chunk.js"
+    "static/js/main.bf7c733c.chunk.js"
   ]
 }
