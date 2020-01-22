@@ -2,7 +2,7 @@
 
 _John Speck_
 
--The backend can be seen here-: 
+The backend can be seen here: 
 https://github.com/speckworks/californiabeachfinder 
 and is deployed here:
 https://mighty-ocean-78254.herokuapp.com/beaches
