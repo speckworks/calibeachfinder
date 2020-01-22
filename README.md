@@ -1,5 +1,7 @@
 # The California Beach Finder
+
 ##John Speck
+
 ####The backend can be seen here: 
 https://github.com/speckworks/californiabeachfinder 
 and is deployed here:
