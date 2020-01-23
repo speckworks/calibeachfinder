@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "655dac246ce206fa06501c0d28f13658",
+    "revision": "32b757126999a01124b8e29e2027b0f5",
     "url": "/calibeachfinder/index.html"
   },
   {
-    "revision": "ff326bbd13723b4bfb92",
-    "url": "/calibeachfinder/static/css/main.ab007f90.chunk.css"
+    "revision": "00df52ee5901773c8dd5",
+    "url": "/calibeachfinder/static/css/main.ba574144.chunk.css"
   },
   {
     "revision": "85a1c99f1ae8e8b5d25a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/calibeachfinder/static/js/2.8315694e.chunk.js.LICENSE"
   },
   {
-    "revision": "ff326bbd13723b4bfb92",
+    "revision": "00df52ee5901773c8dd5",
     "url": "/calibeachfinder/static/js/main.39ed4f25.chunk.js"
   },
   {
