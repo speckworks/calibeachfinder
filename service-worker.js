@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/calibeachfinder/precache-manifest.012d890bf6a0e7339f0ca16ea2bf6fe3.js"
+  "/calibeachfinder/precache-manifest.247c5ffc620de8ced22f33cb3c95418e.js"
 );
 
 self.addEventListener('message', (event) => {
