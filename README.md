@@ -46,7 +46,7 @@ Implemented Rails API for the backend.  The app Used React for the Front End, im
 <li>
 <p><strong>Option 2</strong></p>
 <ul>
-  <li> For the Front end: Clone the frontend repo to your local machine using <code>https://github.com/speckworks/calibeachfinder</code></li>
+  <li>Clone the frontend repo to your local machine using <code>https://github.com/speckworks/calibeachfinder</code></li>
   <h3>NPM Install</h3>
   <h3>NPM Start</h3>
   
