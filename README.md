@@ -12,8 +12,8 @@ Implemented Rails API for the backend.  The app Used React for the Front End, im
 </blockquote>
 <hr></hr>
   <h3><a href="https://speckworks.github.io/calibeachfinder/" >Check it out on Github Pages</a></h3>
-  <h3><a href="https://mighty-ocean-78254.herokuapp.com/beaches">Backend Deployed on Heroku</a></h3>
-  <h3><a href="https://github.com/speckworks/sandc-backend">Backend Source Code on GitHub</a></h3>
+  <h4><a href="https://mighty-ocean-78254.herokuapp.com/beaches">Backend Deployed on Heroku</a></h4>
+  <h4><a href="https://github.com/speckworks/sandc-backend">Backend Source Code on GitHub</a></h4>
 <hr></hr>
 <p><strong>Built With:</strong></p>
 <ul>
