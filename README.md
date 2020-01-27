@@ -46,14 +46,15 @@ Implemented Rails API for the backend.  The app Used React for the Front End, im
 <li>
 <p><strong>Option 2</strong></p>
 <ul>
+  <li> Clone the frontend repo to your local machine using <code>https://github.com/speckworks/calibeachfinder</code></li>
+  <h3>NPM Install</h3>
+  <h3>NPM Start</h3>
+  
   <li> Clone the backend repo from <code>https://github.com/speckworks/sandc-backend</code></li>
   <h4>bundle install</h4>
     <h4>rails db:migrate</h4>
       <h4>rails db:seed</h4>
         <h4>rails s</h4>
-  <li> Clone the frontend repo to your local machine using <code>https://github.com/speckworks/calibeachfinder</code></li>
-  <h3>NPM Install</h3>
-  <h3>NPM Start</h3>
 </ul>
 </li>
 </ul>
