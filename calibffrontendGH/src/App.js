@@ -7,8 +7,11 @@ import ReviewForm from '../src/components/reviewform'
 import Reviews from '../src/components/reviews'
 import Userbeaches from '../src/components/userbeaches'
 import Login from './components/Login'
-import {Route, Link} from 'react-router-dom'
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
+// import {Link, Route} from 'react-router-dom'
 import Beachchart from './components/beachchart'
+// import { Hashrouter} from 'hash-router'
+
 
 
 export default class App extends Component {
@@ -31,14 +34,14 @@ export default class App extends Component {
     }
    
     componentDidMount(){
-        fetch("https://mighty-ocean-78254.herokuapp.com/reviews")
+        fetch("http://localhost:3000/reviews")
         .then(res=> res.json())
         .catch(error=>console.error("Error:", error))
         .then(resArr=>{
             this.setState({reviews:resArr})
         })
 
-        fetch("https://mighty-ocean-78254.herokuapp.com/userbeaches")
+        fetch("http://localhost:3000/userbeaches")
         .then(res=> res.json())
         .then(resArr=>{
             this.setState({userbeaches:resArr})
@@ -77,7 +80,7 @@ export default class App extends Component {
     }
    
     deleteReview = (review_id) => {
-                            const url = `https://mighty-ocean-78254.herokuapp.com/reviews/${review_id}`
+                            const url = `http://localhost:3000/reviews/${review_id}`
                             fetch(url, {method: 'DELETE'})
                             .then(res=>res.json())
                             .catch(error=>console.error("Error:", error))
@@ -88,17 +91,18 @@ export default class App extends Component {
                         }
                         
     grabBeaches = async (QlatLong) => {
-        let rawBeaches = await fetch('https://mighty-ocean-78254.herokuapp.com/beaches')
+        let rawBeaches = await fetch('http://localhost:3000/beaches')
         let beaches = await rawBeaches.json()
         let newBeaches = beaches.filter(beach => {
             return parseFloat(beach.lat) <= QlatLong.lat+.05 && 
             parseFloat(beach.lat) >= QlatLong.lat-.05
         })
-        // console.log(newBeaches)
         this.setState({results:newBeaches,
                         rawBeaches:beaches})
     }
     
+
+
 
     queryCode = (responseObj) => {
         let QlatLong = {}
@@ -148,7 +152,7 @@ export default class App extends Component {
         console.log(review, newReview)
         let review_id = review.id
         let reviewPatch = {user_id:this.state.loggedInUserId, beach_id:review.beach_id, review:newReview}
-        const url = `https://mighty-ocean-78254.herokuapp.com/reviews/${review_id}`
+        const url = `http://localhost:3000/reviews/${review_id}`
         fetch(url, {method:'PATCH',
             body:JSON.stringify(reviewPatch),
             headers: {'content-type':'application/json'}
@@ -166,7 +170,7 @@ export default class App extends Component {
         const user_id = this.state.loggedInUserId
         const name = await props.beach.name
         const userbeach = {beach_id:beach_id, user_id:user_id, name:name}
-        const url = "https://mighty-ocean-78254.herokuapp.com/userbeaches"
+        const url = "http://localhost:3000/userbeaches"
         fetch(url, {method: 'POST',
         body:JSON.stringify(userbeach),
         headers: {'content-type':'application/json'}
@@ -182,7 +186,7 @@ export default class App extends Component {
     }
 
     deleteFromUBs = (beach) => {
-        const url = `https://mighty-ocean-78254.herokuapp.com/${beach.id}`
+        const url = `http://localhost:3000/userbeaches/${beach.id}`
         fetch(url, {method: 'DELETE'})
         .then(res=>res.json())
         .catch(error=>console.error("Error:", error))
@@ -195,24 +199,27 @@ export default class App extends Component {
     
     render() {  
         return (
+            
+        <Router>
             <div id="title">
                     CALIFORNIA BEACH FINDER
-                <div className="navbuttonscontainer">
-                    <Link to="/beachfinder">
-                    <button className="roundbutton">
-                    Beach Finder Mainpage</button>
-                    </Link>
-                    <Link to="/beachchart">
-                    <button className="roundbutton">
-                    Beach Data Chart</button>
-                    </Link>
-                    <Link to="/userbeaches">
-                    <button className="roundbutton">Favorite Beaches</button>
-                    </Link>
-                    <Link to="/reviews">
-                    <button className="roundbutton"
-                    >Reviews</button>
-                    </Link>
+                    <div>
+                        <div className="navbuttonscontainer">
+                            <Link to="/">
+                            <button className="roundbutton">
+                            Beach Finder Mainpage</button>
+                            </Link>
+                            <Link to="/beachchart">
+                            <button className="roundbutton">
+                            Beach Data Chart</button>
+                            </Link>
+                            <Link to="/userbeaches">
+                            <button className="roundbutton">Favorite Beaches</button>
+                            </Link>
+                            <Link to="/reviews">
+                            <button className="roundbutton"
+                            >Reviews</button>
+                            </Link>
 
                 
                     {!!this.state.token
@@ -230,94 +237,94 @@ export default class App extends Component {
                     }
                     </>
                     </div>
-                    <Route exact path={'/beachfinder'} render= {(props) => 
-                    <div id="search-bar">
-                                <SearchForm {...props} 
-                                grabBeaches={this.grabBeaches}
-                                queryCode={this.queryCode}
-                    />
-                    </div>}
-                    />
 
-                    <Route exact path={'/beachfinder'} render= {(props) => 
-                        {return this.state.results.length === 0 
-                        ? 
-                        <div id="map-showcase">
-                        <MapContainer {...props} 
-                        beaches={this.state.results} 
-                        qLatLong={this.state.qLatLong}
-                        displayBeach={this.displayBeach}/>
-                        </div> 
-                        :
-                        <div id="map-showcase"> 
-                        <MapContainer {...props}
-                        beaches={this.state.results} 
-                        displayBeach={this.displayBeach}
-                        qLatLong={this.state.qLatLong}
-                    />
-                     {/* {console.log("this.state.qLatLong", this.state.qLatLong)} */}
-                    </div>
-                    }
-                    }
-                    />
 
-                    <Route exact path={'/favbeach'} render= {(props) =>
-                   <div id="fav-beach">
-                    <Favbeach id="favbeach" {...props} 
-                        beach={this.state.displayBeach}
-                        refreshBeaches={this.refreshBeaches}
-                        addBeachtoUBs={this.addBeachtoUBs}
-                        userBeaches={this.userBeaches}
-                    />
-                    </div>           
-                    }    
-                    /> 
 
-                    <Route exact path={'/userbeaches'} render= {(props) => 
-                    <div id="userbeaches">
-                    <Userbeaches {...props}
-                    userbeaches={this.state.userbeaches}
-                    deleteFromUBs={this.deleteFromUBs}
-                    returnHome={this.returnHome}
-                    reviewBeach={this.reviewBeach}
-                    user_id={this.state.loggedInUserId}
-                    rawBeaches={this.state.rawBeaches}
-                    />
-                    </div>}
-                    />
+                            <Route exact path={'/'} render= {(props) => 
+                            <div id="search-bar">
+                                        <SearchForm {...props} 
+                                        grabBeaches={this.grabBeaches}
+                                        queryCode={this.queryCode}
+                            />
+                            </div>}
+                            />
+                            <Route exact path={'/'} render= {(props) => 
+                                {return this.state.results.length === 0 
+                                ? 
+                                <div id="map-showcase">
+                                <MapContainer {...props} 
+                                beaches={this.state.results} 
+                                qLatLong={this.state.qLatLong}
+                                displayBeach={this.displayBeach}/>
+                                </div> 
+                                :
+                                <div id="map-showcase"> 
+                                <MapContainer {...props}
+                                beaches={this.state.results} 
+                                displayBeach={this.displayBeach}
+                                qLatLong={this.state.qLatLong}
+                            />
+                            {/* {console.log("this.state.qLatLong", this.state.qLatLong)} */}
+                            </div>
+                            }
+                            }
+                            />
 
-                    <Route exact path={'/reviews'} render= {(props) =>
-                    <div id="reviewform roundbutton">
-                    <ReviewForm {...props}
-                                displayBeach={this.state.displayBeach}
-                                addReview={this.addReview}
-                                returnHome={this.returnHome}
-                                user_id={this.state.loggedInUserId}
-                    />
-                    </div>}
-                    />
+                            <Route exact path={'/favbeach'} render= {(props) =>
+                        <div id="fav-beach">
+                            <Favbeach id="favbeach" {...props} 
+                                beach={this.state.displayBeach}
+                                refreshBeaches={this.refreshBeaches}
+                                addBeachtoUBs={this.addBeachtoUBs}
+                                userBeaches={this.userBeaches}
+                            />
+                            </div>           
+                            }    
+                            /> 
 
-                    <Route exact path={'/reviews'} render={(props) =>
-                    <div id="reviews">
-                    <Reviews {...props}
-                            reviews={this.state.reviews}
-                            beaches={this.state.results}
-                            deleteReview={this.deleteReview}
-                            updateReview={this.updateReview}
+                            <Route exact path={'/userbeaches'} render= {(props) => 
+                            <div id="userbeaches">
+                            <Userbeaches {...props}
+                            userbeaches={this.state.userbeaches}
+                            deleteFromUBs={this.deleteFromUBs}
+                            returnHome={this.returnHome}
+                            reviewBeach={this.reviewBeach}
                             user_id={this.state.loggedInUserId}
-                    />
-                    </div>}
-                    />
-
-                    <Route exact path={'/beachchart'} render={(props) =>
-                    <div id="beachchart">
-                    <Beachchart {...props}
-                       rawBeaches={this.state.rawBeaches}
-                    />
-                    </div>}
-                    />
-           
-        </div>
+                            rawBeaches={this.state.rawBeaches}
+                            />
+                            </div>}
+                            />
+                            <Route exact path={'/reviews'} render= {(props) =>
+                            <div id="reviewform roundbutton">
+                            <ReviewForm {...props}
+                                        displayBeach={this.state.displayBeach}
+                                        addReview={this.addReview}
+                                        returnHome={this.returnHome}
+                                        user_id={this.state.loggedInUserId}
+                            />
+                            </div>}
+                            />
+                            <Route exact path={'/reviews'} render={(props) =>
+                            <div id="reviews">
+                            <Reviews {...props}
+                                    reviews={this.state.reviews}
+                                    beaches={this.state.results}
+                                    deleteReview={this.deleteReview}
+                                    updateReview={this.updateReview}
+                                    user_id={this.state.loggedInUserId}
+                            />
+                            </div>}
+                            />
+                            <Route exact path={'/beachchart'} render={(props) =>
+                            <div id="beachchart">
+                            <Beachchart {...props}
+                            rawBeaches={this.state.rawBeaches}
+                            />
+                            </div>}
+                            />
+                        </div>
+            </div>
+        </Router>
         )
     }
 }
