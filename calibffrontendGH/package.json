@@ -7,6 +7,7 @@
     "chart.js": "^2.9.3",
     "gh-pages": "^2.2.0",
     "google-maps-react": "^2.0.2",
+    "hash-router": "^0.4.0",
     "material-ui": "^0.20.2",
     "npm-check-updates": "^4.0.1",
     "react": "^16.12.0",
