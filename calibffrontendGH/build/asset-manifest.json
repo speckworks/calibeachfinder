@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71bd3e21.chunk.css",
+    "main.js": "/static/js/main.a6fdad4c.chunk.js",
+    "main.js.map": "/static/js/main.a6fdad4c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36fda8c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36fda8c8.js.map",
+    "static/js/2.bb587245.chunk.js": "/static/js/2.bb587245.chunk.js",
+    "static/js/2.bb587245.chunk.js.map": "/static/js/2.bb587245.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1b49796612f1acd94c2c71d93ee5cfe8.js": "/precache-manifest.1b49796612f1acd94c2c71d93ee5cfe8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.71bd3e21.chunk.css.map": "/static/css/main.71bd3e21.chunk.css.map",
+    "static/js/2.bb587245.chunk.js.LICENSE": "/static/js/2.bb587245.chunk.js.LICENSE",
+    "static/media/index.css": "/static/media/beach-background.9d759028.jpg",
+    "static/media/beach-marker.png": "/static/media/beach-marker.cfafeca2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36fda8c8.js",
+    "static/js/2.bb587245.chunk.js",
+    "static/css/main.71bd3e21.chunk.css",
+    "static/js/main.a6fdad4c.chunk.js"
+  ]
+}
