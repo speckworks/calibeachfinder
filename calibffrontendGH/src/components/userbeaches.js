@@ -20,11 +20,10 @@ export default class Userbeaches extends Component {
 
         userBeaches = userbeachesFiltered.map((userbeach)=>{
             return <span>
-                <div id="userbeach" div="outerborder">
+                <div id="userbeach" className="outerborder">
                     {/* {"beach.user_id", console.log(beach.user_id)} */}
                     <div key={userbeach.beach_id} div="innerborder">
                     {userbeach.name}
-                    <br></br>
                     <img id="imgframe"
                     src={userbeach.beach ? userbeach.beach.photo_1: "loading" }
                     alt="no_image_available_for_this_beach">
@@ -49,9 +48,9 @@ export default class Userbeaches extends Component {
                         >
                         Return to Beachfinder Main
                         </button> */}
-            <div id="favbeachbox">     Favorite Beaches:
+            <div id="favbeachbox">Favorite Beaches:
+                <div>
                 {userBeaches}
-                <div id="userbeach">
                 </div>
             </div>
             </div>

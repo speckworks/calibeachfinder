@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 const styles = {
-    width:"600px",
-    height: '75%',
+    width:"45%",
+    height: '68%',
     float:"left",
     position:"none",
     border:"5px",
-    transform:"translate(-235px,-640px)",
+    transform:"translate(-80px,-700px)",
     color:"black",
     borderRadius:"100%",
     textShadow:"none"

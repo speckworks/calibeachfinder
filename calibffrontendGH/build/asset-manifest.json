@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/calibeachfinder/static/css/main.70154532.chunk.css",
-    "main.js": "/calibeachfinder/static/js/main.3f8da79d.chunk.js",
-    "main.js.map": "/calibeachfinder/static/js/main.3f8da79d.chunk.js.map",
+    "main.js": "/calibeachfinder/static/js/main.17952099.chunk.js",
+    "main.js.map": "/calibeachfinder/static/js/main.17952099.chunk.js.map",
     "runtime-main.js": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js",
     "runtime-main.js.map": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js.map",
-    "static/js/2.8acd058f.chunk.js": "/calibeachfinder/static/js/2.8acd058f.chunk.js",
-    "static/js/2.8acd058f.chunk.js.map": "/calibeachfinder/static/js/2.8acd058f.chunk.js.map",
+    "static/js/2.41313ab6.chunk.js": "/calibeachfinder/static/js/2.41313ab6.chunk.js",
+    "static/js/2.41313ab6.chunk.js.map": "/calibeachfinder/static/js/2.41313ab6.chunk.js.map",
     "index.html": "/calibeachfinder/index.html",
-    "precache-manifest.f28fc108b998e3a4f18d6571f3ec69fe.js": "/calibeachfinder/precache-manifest.f28fc108b998e3a4f18d6571f3ec69fe.js",
+    "precache-manifest.04fa60b0e063c24b16022f908471fa6d.js": "/calibeachfinder/precache-manifest.04fa60b0e063c24b16022f908471fa6d.js",
     "service-worker.js": "/calibeachfinder/service-worker.js",
     "static/css/main.70154532.chunk.css.map": "/calibeachfinder/static/css/main.70154532.chunk.css.map",
-    "static/js/2.8acd058f.chunk.js.LICENSE": "/calibeachfinder/static/js/2.8acd058f.chunk.js.LICENSE",
+    "static/js/2.41313ab6.chunk.js.LICENSE": "/calibeachfinder/static/js/2.41313ab6.chunk.js.LICENSE",
     "static/media/index.css": "/calibeachfinder/static/media/beach-background.9d759028.jpg",
     "static/media/beach-marker.png": "/calibeachfinder/static/media/beach-marker.cfafeca2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c1ecf95b.js",
-    "static/js/2.8acd058f.chunk.js",
+    "static/js/2.41313ab6.chunk.js",
     "static/css/main.70154532.chunk.css",
-    "static/js/main.3f8da79d.chunk.js"
+    "static/js/main.17952099.chunk.js"
   ]
 }

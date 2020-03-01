@@ -27,7 +27,7 @@ html{
   color: blanchedalmond;
   border-radius: 25%;
   padding:10px;
-  text-align: center; 
+  /* text-align: center;  */
 } 
 
 #returnbutton{
@@ -70,17 +70,22 @@ width:200px;
 }
 
 #title{
+  color: #3B5957;
+  background-color: #5D8D89;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
   border-color: rgba(23, 236, 251, 0.822);
   background-color:rgba(0, 0, 0, 0.376);
   color: blanchedalmond;
-  padding: 20px;
-  text-align:bottom;
+  padding: 25px;
+  padding-top: 50px;
+  text-align:center;
   border-radius: 50%;
   width: 1000px;
   height: 100px;
-  margin: 10px;
+  margin: auto;
   text-shadow:2px 2px seagreen;
-  /* transform: translate(0px, -100px); */
+  box-shadow:         inset 0 0 10px #000000;
+  transform: translate(0px, 0px);
 }
 
 /* .loginbar, .mapcontainer, .searchbar {
@@ -142,12 +147,12 @@ width:200px;
   font-size: 36px;
   text-shadow: none;
   z-index: 4;
-  /* opacity: 70%; */
-  width:600px;
+  width:1000px;
   transform: translate(00px,-500px);
   border-radius: 50%;
-  /* background-color: black; */
   padding:10px;
+  margin:auto;
+  text-align: center;
 }
 
 #reviews{
@@ -185,27 +190,32 @@ width:200px;
 }
 
 #favbeach{
+  display:grid;
+  grid-template-rows: 10vw;
   font-size:16px !important;
   /* height:relative;
   width:relative; */
   margin: 10px;
-  transform: translate(-60px,-500px);
+  transform: translate(30%,-90%);
   text-shadow: none;
   color: black;
 }
 
 .outerborder{
-  max-width: 250px;
+  max-width: 100%;
   padding: 1rem;
-  position: relative;
   background: linear-gradient(to right, red, purple);
   padding: 3px;
+  margin:auto;
 }
 
 .innerborder{
+  width:100%;
   background: #222;
   color: white;
   padding: 2rem;
+  margin:auto;
+  translate: transform(-200px);
 }
 
 .mapframe{
@@ -241,10 +251,12 @@ width:200px;
   background: linear-gradient(to right, red, purple);
   border:groove;
   border: width 1vh;
+  margin:auto;
 }
 
 #userbeach{
-  /* display:flex; */
+  display:flex;
+  flex-direction:column;
   font-size:18px;
   border: black;
   background-color: gray;
@@ -255,6 +267,8 @@ width:200px;
   background: linear-gradient(to right, red, purple);
   border:groove;
   border: width 1vh;
+  transform: translate(75px);
+  margin:auto;
 }
 #userbeachphoto{
   display:flex;
@@ -284,9 +298,11 @@ width:200px;
 
 .roundbuttonFavbeach{
   border-radius:50px;
-  width:150px;
+  height:20%;
+  width:20%;
   transition: all 0.3s ease-in-out;  
   padding:30px;
+  margin:auto;
 }
 
 .roundbuttonFavbeach:hover {

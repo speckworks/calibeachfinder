@@ -198,9 +198,10 @@ export default class App extends Component {
     render() {  
         return (
             
-        <Router>
+            <Router>
             <div id="title">
                     CALIFORNIA BEACH FINDER
+            </div>
                     <div>
                         <div className="navbuttonscontainer">
                             <Link to="/">
@@ -321,7 +322,6 @@ export default class App extends Component {
                             </div>}
                             />
                         </div>
-            </div>
         </Router>
         )
     }
