@@ -6,7 +6,7 @@ export default class Favbeach extends Component {
             <div id="favbeach">
                 <div>
                 <img
-                    id="favbeachimg" 
+                    id="imgframe" 
                     key={this.props.beach.id} 
                     src={this.props.beach.photo_1} 
                     alt="beach">

@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
-const mapStyles = {
+const styles = {
     width:"600px",
-    height: '80%',
+    height: '75%',
     float:"left",
     position:"none",
+    border:"5px",
     transform:"translate(-235px,-640px)",
     color:"black",
     borderRadius:"100%",
     textShadow:"none"
-  };
+        };
 
   class MapContainer extends Component {
     displayMarkers = () => {
@@ -43,7 +44,7 @@ const mapStyles = {
           <div className="map-container">
           <Map
           id="map-showcase"
-          style={mapStyles}
+          style={styles}
           google={this.props.google}
           zoom={11}
           initialCenter={

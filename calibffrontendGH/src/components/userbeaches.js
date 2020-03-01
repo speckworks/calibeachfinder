@@ -20,12 +20,12 @@ export default class Userbeaches extends Component {
 
         userBeaches = userbeachesFiltered.map((userbeach)=>{
             return <span>
-                <div id="userbeach">
+                <div id="userbeach" div="outerborder">
                     {/* {"beach.user_id", console.log(beach.user_id)} */}
-                    <div key={userbeach.beach_id}>
+                    <div key={userbeach.beach_id} div="innerborder">
                     {userbeach.name}
                     <br></br>
-                    <img id="userbeachphoto" 
+                    <img id="userbeachphoto" id="imgframe"
                     src={userbeach.beach ? userbeach.beach.photo_1: "loading" }
                     alt="no_image_available_for_this_beach">
                     </img>
@@ -34,10 +34,6 @@ export default class Userbeaches extends Component {
                     onClick={()=>this.props.deleteFromUBs(userbeach)}>
                     Delete Favorite
                     </button>
-
-                    {/* <Link to="/reviews">
-                    <button id="userbeachesbuttons" >Review This Beach</button>
-                    </Link> */}
                     <button id="userbeachesbuttons" className="roundbuttonFavbeach"
                     onClick={()=>this.props.reviewBeach(this.props, userbeach.beach_id)}>
                     Review Beach

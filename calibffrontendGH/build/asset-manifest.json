@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/californiabeachfinder/static/css/main.1fcecdde.chunk.css",
-    "main.js": "/californiabeachfinder/static/js/main.488dc69d.chunk.js",
-    "main.js.map": "/californiabeachfinder/static/js/main.488dc69d.chunk.js.map",
-    "runtime-main.js": "/californiabeachfinder/static/js/runtime-main.af4317a8.js",
-    "runtime-main.js.map": "/californiabeachfinder/static/js/runtime-main.af4317a8.js.map",
-    "static/js/2.21dc91c3.chunk.js": "/californiabeachfinder/static/js/2.21dc91c3.chunk.js",
-    "static/js/2.21dc91c3.chunk.js.map": "/californiabeachfinder/static/js/2.21dc91c3.chunk.js.map",
-    "index.html": "/californiabeachfinder/index.html",
-    "precache-manifest.973b1cb1c137ae897cfc9170cddc3852.js": "/californiabeachfinder/precache-manifest.973b1cb1c137ae897cfc9170cddc3852.js",
-    "service-worker.js": "/californiabeachfinder/service-worker.js",
-    "static/css/main.1fcecdde.chunk.css.map": "/californiabeachfinder/static/css/main.1fcecdde.chunk.css.map",
-    "static/js/2.21dc91c3.chunk.js.LICENSE": "/californiabeachfinder/static/js/2.21dc91c3.chunk.js.LICENSE",
-    "static/media/index.css": "/californiabeachfinder/static/media/beach-background.9d759028.jpg",
-    "static/media/beach-marker.png": "/californiabeachfinder/static/media/beach-marker.cfafeca2.png"
+    "main.css": "/calibeachfinder/static/css/main.89bb7f6d.chunk.css",
+    "main.js": "/calibeachfinder/static/js/main.c6cea05d.chunk.js",
+    "main.js.map": "/calibeachfinder/static/js/main.c6cea05d.chunk.js.map",
+    "runtime-main.js": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js",
+    "runtime-main.js.map": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js.map",
+    "static/js/2.41313ab6.chunk.js": "/calibeachfinder/static/js/2.41313ab6.chunk.js",
+    "static/js/2.41313ab6.chunk.js.map": "/calibeachfinder/static/js/2.41313ab6.chunk.js.map",
+    "index.html": "/calibeachfinder/index.html",
+    "precache-manifest.d779c841198ec4c0352584d334d8f5ae.js": "/calibeachfinder/precache-manifest.d779c841198ec4c0352584d334d8f5ae.js",
+    "service-worker.js": "/calibeachfinder/service-worker.js",
+    "static/css/main.89bb7f6d.chunk.css.map": "/calibeachfinder/static/css/main.89bb7f6d.chunk.css.map",
+    "static/js/2.41313ab6.chunk.js.LICENSE": "/calibeachfinder/static/js/2.41313ab6.chunk.js.LICENSE",
+    "static/media/index.css": "/calibeachfinder/static/media/beach-background.9d759028.jpg",
+    "static/media/beach-marker.png": "/calibeachfinder/static/media/beach-marker.cfafeca2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.af4317a8.js",
-    "static/js/2.21dc91c3.chunk.js",
-    "static/css/main.1fcecdde.chunk.css",
-    "static/js/main.488dc69d.chunk.js"
+    "static/js/runtime-main.c1ecf95b.js",
+    "static/js/2.41313ab6.chunk.js",
+    "static/css/main.89bb7f6d.chunk.css",
+    "static/js/main.c6cea05d.chunk.js"
   ]
 }
