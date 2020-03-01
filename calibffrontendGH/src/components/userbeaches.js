@@ -25,7 +25,7 @@ export default class Userbeaches extends Component {
                     <div key={userbeach.beach_id} div="innerborder">
                     {userbeach.name}
                     <br></br>
-                    <img id="userbeachphoto" id="imgframe"
+                    <img id="imgframe"
                     src={userbeach.beach ? userbeach.beach.photo_1: "loading" }
                     alt="no_image_available_for_this_beach">
                     </img>
