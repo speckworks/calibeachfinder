@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/calibeachfinder/static/css/main.70154532.chunk.css",
-    "main.js": "/calibeachfinder/static/js/main.17952099.chunk.js",
-    "main.js.map": "/calibeachfinder/static/js/main.17952099.chunk.js.map",
+    "main.css": "/calibeachfinder/static/css/main.828a193f.chunk.css",
+    "main.js": "/calibeachfinder/static/js/main.f829f607.chunk.js",
+    "main.js.map": "/calibeachfinder/static/js/main.f829f607.chunk.js.map",
     "runtime-main.js": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js",
     "runtime-main.js.map": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js.map",
     "static/js/2.41313ab6.chunk.js": "/calibeachfinder/static/js/2.41313ab6.chunk.js",
     "static/js/2.41313ab6.chunk.js.map": "/calibeachfinder/static/js/2.41313ab6.chunk.js.map",
     "index.html": "/calibeachfinder/index.html",
-    "precache-manifest.04fa60b0e063c24b16022f908471fa6d.js": "/calibeachfinder/precache-manifest.04fa60b0e063c24b16022f908471fa6d.js",
+    "precache-manifest.28e5dafc11aedeae37e26d577310f391.js": "/calibeachfinder/precache-manifest.28e5dafc11aedeae37e26d577310f391.js",
     "service-worker.js": "/calibeachfinder/service-worker.js",
-    "static/css/main.70154532.chunk.css.map": "/calibeachfinder/static/css/main.70154532.chunk.css.map",
+    "static/css/main.828a193f.chunk.css.map": "/calibeachfinder/static/css/main.828a193f.chunk.css.map",
     "static/js/2.41313ab6.chunk.js.LICENSE": "/calibeachfinder/static/js/2.41313ab6.chunk.js.LICENSE",
     "static/media/index.css": "/calibeachfinder/static/media/beach-background.9d759028.jpg",
     "static/media/beach-marker.png": "/calibeachfinder/static/media/beach-marker.cfafeca2.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.c1ecf95b.js",
     "static/js/2.41313ab6.chunk.js",
-    "static/css/main.70154532.chunk.css",
-    "static/js/main.17952099.chunk.js"
+    "static/css/main.828a193f.chunk.css",
+    "static/js/main.f829f607.chunk.js"
   ]
 }
