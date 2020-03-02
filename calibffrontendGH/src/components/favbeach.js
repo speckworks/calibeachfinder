@@ -25,13 +25,13 @@ export default class Favbeach extends Component {
                 <div></div>
                 Boating: {!this.props.beach.boating ? "No Info": this.props.beach.boating}
                 </div>
-                </div>
                    <button className="roundbutton"
                     onClick={()=>this.props.addBeachtoUBs(this.props)}
                     >
                    {console.log(this.props)}
                     Add This Beach to my Favs!
                     </button>
+                </div>
                     {/* </Link> */}
                     {/* <button id="roundbutton"
                             onClick={()=>this.props.userBeaches(this.props)}
