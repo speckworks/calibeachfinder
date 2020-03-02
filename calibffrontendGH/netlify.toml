@@ -1,4 +1,0 @@
-[build]
-base = "californiabeachfinder/frontend/"
-publish = "californiabeachfinder/frontend/"
-command = "npm run build"

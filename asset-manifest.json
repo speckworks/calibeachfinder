@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/calibeachfinder/static/css/main.1e570131.chunk.css",
-    "main.js": "/calibeachfinder/static/js/main.39ed4f25.chunk.js",
-    "main.js.map": "/calibeachfinder/static/js/main.39ed4f25.chunk.js.map",
+    "main.css": "/calibeachfinder/static/css/main.439b7ca3.chunk.css",
+    "main.js": "/calibeachfinder/static/js/main.a0c86a13.chunk.js",
+    "main.js.map": "/calibeachfinder/static/js/main.a0c86a13.chunk.js.map",
     "runtime-main.js": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js",
     "runtime-main.js.map": "/calibeachfinder/static/js/runtime-main.c1ecf95b.js.map",
-    "static/js/2.8315694e.chunk.js": "/calibeachfinder/static/js/2.8315694e.chunk.js",
-    "static/js/2.8315694e.chunk.js.map": "/calibeachfinder/static/js/2.8315694e.chunk.js.map",
+    "static/js/2.41313ab6.chunk.js": "/calibeachfinder/static/js/2.41313ab6.chunk.js",
+    "static/js/2.41313ab6.chunk.js.map": "/calibeachfinder/static/js/2.41313ab6.chunk.js.map",
     "index.html": "/calibeachfinder/index.html",
-    "precache-manifest.53be0e22e8de956103faf52da772f167.js": "/calibeachfinder/precache-manifest.53be0e22e8de956103faf52da772f167.js",
+    "precache-manifest.4c48655dea9037969761077cd427c56b.js": "/calibeachfinder/precache-manifest.4c48655dea9037969761077cd427c56b.js",
     "service-worker.js": "/calibeachfinder/service-worker.js",
-    "static/css/main.1e570131.chunk.css.map": "/calibeachfinder/static/css/main.1e570131.chunk.css.map",
-    "static/js/2.8315694e.chunk.js.LICENSE": "/calibeachfinder/static/js/2.8315694e.chunk.js.LICENSE",
+    "static/css/main.439b7ca3.chunk.css.map": "/calibeachfinder/static/css/main.439b7ca3.chunk.css.map",
+    "static/js/2.41313ab6.chunk.js.LICENSE": "/calibeachfinder/static/js/2.41313ab6.chunk.js.LICENSE",
     "static/media/index.css": "/calibeachfinder/static/media/beach-background.9d759028.jpg",
     "static/media/beach-marker.png": "/calibeachfinder/static/media/beach-marker.cfafeca2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c1ecf95b.js",
-    "static/js/2.8315694e.chunk.js",
-    "static/css/main.1e570131.chunk.css",
-    "static/js/main.39ed4f25.chunk.js"
+    "static/js/2.41313ab6.chunk.js",
+    "static/css/main.439b7ca3.chunk.css",
+    "static/js/main.a0c86a13.chunk.js"
   ]
 }
