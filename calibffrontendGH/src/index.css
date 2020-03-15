@@ -9,6 +9,12 @@ body{
   height: 70%;
 }
 
+@media screen and (min-width: 31.42em) {
+  .c2, .c3 {
+    float: left;
+    width: 50%;
+  }
+}
 
 html{
   margin: 5px;
