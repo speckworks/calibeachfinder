@@ -27,6 +27,8 @@ html{
   color: blanchedalmond;
   border-radius: 25%;
   padding:10px;
+  margin:auto;
+  max-width: auto;
   /* text-align: center;  */
 } 
 
@@ -226,7 +228,7 @@ width:200px;
   border-radius: 25%;
   padding:10px;
   /* align-items: row; */
-  background: linear-gradient(to right, red, purple);
+  /* background: linear-gradient(to right, red, purple); */
   border:groove;
   border: width 1vh;
 }
@@ -248,7 +250,7 @@ width:200px;
   border-radius: 25%;
   padding:10px;
   /* align-items: row; */
-  background: linear-gradient(to right, red, purple);
+  /* background: linear-gradient(to right, red, purple); */
   border:groove;
   border: width 1vh;
   margin:auto;
