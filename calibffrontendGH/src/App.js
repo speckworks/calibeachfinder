@@ -8,11 +8,7 @@ import Reviews from '../src/components/reviews'
 import Userbeaches from '../src/components/userbeaches'
 import Login from './components/Login'
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
-// import {Link, Route} from 'react-router-dom'
 import Beachchart from './components/beachchart'
-// import { Hashrouter} from 'hash-router'
-
-
 
 export default class App extends Component {
     state = {
