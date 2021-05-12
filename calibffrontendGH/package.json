@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://speckworks.github.io/calibeachfinder",
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "gh-pages": "^2.2.0",
     "google-maps-react": "^2.0.2",
     "hash-router": "^0.4.0",
